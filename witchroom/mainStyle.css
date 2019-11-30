@@ -1,0 +1,60 @@
+u/* 전체 스타일 */
+body, html{background-image: url("image/background.jpg");margin:0; height:100%; overflow:hidden; text-align: center;}
+
+/* 오른쪽 페이지 */
+.rightPage{float:right; width: 60%; height:100%;}
+table {text-align: center; margin-top:60px;}
+td{margin-bottom: -20px;}
+.rightPage img{width:40%; }
+.rightPage table tr td .textbox {width:400px; height:100px; color:white; display: inline-block;}
+.image:hover{filter: brightness(80%);}
+
+
+/* 왼쪽 페이지 */
+.leftPage {
+	text-align: right;
+	width: 40%; 
+	height:100%;
+}
+
+.leftPage .book1 {
+	top:52px;
+	position:absolute;
+	width:6%;
+	left:250px;
+}
+
+.leftPage .book2{
+	top:210px;
+	position:absolute;
+	width:6%;
+	left:355px;
+}
+.leftPage .book3{
+	top:368px;
+	position:absolute;
+	width:6%;
+	left:250px;
+}
+.leftPage .book4{
+	top:520px;
+	position:absolute;
+	width:6%;
+	left:565px;
+}
+
+.leftPage .skull{
+	top:560px;
+	position:absolute;
+	width:6%;
+	left:355px;
+}
+
+.leftPage #bookshelf {
+	position : absolute;
+	width:37%;
+	left : 50%;
+	margin-left : -600px;
+	margin-top : -45px;
+	/* margin-bottom : 30px; */
+}

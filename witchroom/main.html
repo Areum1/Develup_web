@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<link rel="shortcut icon" href="image/favicon.ico">
+        <title>환영합니다</title>
+		<link rel="shortcut icon" href="image/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="mainStyle.css">
+		<link rel="import" href="power.html">
+        <script language="javascript" type="text/javascript">
+            function openWin(){
+                var popupX = (window.screen.width / 2) - (600 / 2);
+                var popupY= (window.screen.height / 2) - (500 / 2);
+                window.open("power.html","당신의 집순이력을 알아볼까?", "width=600,height=500,toolbar=no,menubar=no, scrollbars=no,resizable=yes left="+ popupX + ', top='+ popupY);
+            }
+			function openTip(){
+                var popupX = (window.screen.width / 2) - (600 / 2);
+                var popupY= (window.screen.height / 2) - (500 / 2);
+                window.open("openTip.html","팁이 있다고?", "width=340,height=400,toolbar=no,menubar=no, scrollbars=no,resizable=yes left="+ popupX + ', top='+ popupY);
+            }
+			
+			function Tipopen(){
+                var popupX = (window.screen.width / 2) - (600 / 2);
+                var popupY= (window.screen.height / 2) - (500 / 2);
+                window.open("Tipopen.html","누군가의 팁이 도착했습니다.", "width=340,height=400,toolbar=no,menubar=no, scrollbars=no,resizable=yes left="+ popupX + ', top='+ popupY);
+            }
+        </script>
+		
+    </head>
+    <body>
+		
+
+        <div class="rightPage">
+            <table>
+                <tr>
+                    <td><img src = "image/mirror.png" onclick = "javascript:openWin();" class = "image"></td>
+                </tr>
+                <tr>
+                    <td style = "height: 100px;">
+					<a href = "game.html"><img src = "image/pot.png" onmouseover="this.src='image/pot2.png'" onmouseout="this.src='image/pot.png'"></a>
+					</td>
+                </tr>
+            </table>
+        </div>
+        <div class = "leftPage"> 
+			<img src = "image/skull.png" class = "skull" style = "z-index:6" onclick="javascript:openTip();">
+			<img src = "image/book/book4.png" class = "book4" style = "z-index:5" onclick="javascript:Tipopen();">
+			<img src = "image/book/book3.png" class = "book3" style = "z-index:4" onclick="javascript:Tipopen();">
+			<img src = "image/book/book2.png" class = "book2" style = "z-index:3" onclick="javascript:Tipopen();">
+			<img src = "image/book/book1.png" class = "book1" style = "z-index:2" onclick="javascript:Tipopen();">
+			<img src = "image/bookshelf.png" id = "bookshelf" style = "z-index:1" onclick="javascript:Tipopen();">
+			
+			
+        </div>
+    </body>T
+</html>

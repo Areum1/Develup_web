@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>                                           
+    <head>
+		<link rel="shortcut icon" href="image/favicon.ico">
+        <title>귤 게임</title>
+        <style>
+            body, html{background-image: url("image/background.jpg");margin:0; height:100%; overflow:hidden; text-align: center;}
+            img {margin-top:150px;}
+			table{display:inline; text-align:center; ;}
+			.button {
+				width : 240px;
+				height : 90px;
+				float : left;
+				text-align:center;
+				color : #ffffff;
+				margin-left: 100px;
+			}
+			p{text-align:center; line-height:90px; background-image:url(image/brushTouch.png); width : 240px;text-align:center;height : 90px;margin-left: 85px; }
+			a{text-decoration:none; color:white;}
+			
+        </style>
+    </head>
+
+    <body>
+		<table>
+			<tr>
+				<td><img src="image/mandarin/madarin1.png" id="madarin" onclick="changeimage()"></td>
+			</tr>
+			<tr>
+				<td>
+				<div clas ="button"><a href="main.html">
+					<p>
+						끝내기
+					</p></a>
+				</div>
+				</td>
+			</tr>
+		</table>
+                
+        <script>
+            var image = document.getElementById('madarin');
+            var score = 0;
+            count = 1;
+            function changeimage(){
+				if(count ==9){
+                    count = 0;
+                    score = score+1;
+                    alert("당신의 귤 깐 갯수 : "+(score));
+                }
+                count = count+1;
+                image.src = "image/mandarin/madarin"+count+".png";
+            }   
+        </script>
+    </body>
+</html>
