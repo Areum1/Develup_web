@@ -3,7 +3,7 @@
 집순이들을 마법사로 비유하여 만든 웹페이지 (주제 : 스낵콘텐츠)
 
 ## 체험해보기
-[https://areumsheep.github.io/Develup_web/witchroom/intro.html](https://areum1.github.io/Develup_web/witchroom/intro.html)
+[https://areumsheep.github.io/Develup_web/witchroom/intro.html](https://areumsheep.github.io/Develup_web/witchroom/intro.html)
 
 ### 웹사이트 이미지
 디자인은 대학생분께서 해주셨습니다
